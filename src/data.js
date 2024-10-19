@@ -55,6 +55,14 @@ export const data =[
         title:"Stock Market Portfolio",
         github:"https://github.com/sangampshinde/Stock-Market-Portfolio-App",
         demo:"https://66eef2a982cdde9222f1eb40--stirring-taffy-2cd93f.netlify.app"
+    },
+    {
+        id:"7",
+        group:"React",
+        image:["stockmarket.JPG"],
+        title:"Stock Market Portfolio",
+        github:"https://github.com/sangampshinde/Stock-Market-Portfolio-App",
+        demo:"https://66eef2a982cdde9222f1eb40--stirring-taffy-2cd93f.netlify.app"
     }
 ]
 
