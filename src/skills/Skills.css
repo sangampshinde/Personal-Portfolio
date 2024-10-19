@@ -1,0 +1,21 @@
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .skill-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust size as needed */
+    background: #f0f0f0; /* Optional background color */
+    border-radius: 8px; /* Optional rounded corners */
+    padding: 10px; /* Optional padding */
+  }
+  
+  .skill-item i {
+    color: #333; /* Adjust icon color as needed */
+  }
+  

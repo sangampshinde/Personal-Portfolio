@@ -1,0 +1,168 @@
+/* AboutMe.css */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .profession {
+    font-size: 1.5rem;
+    color: #555;
+    animation: fadeIn 1s ease-out;
+    animation-delay: 0.2s;
+  }
+  
+  .skills-section {
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .skill {
+    padding: 0.5rem;
+    background-color: #272f39;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .contact-section {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .submit-button {
+    padding: 0.5rem 1rem;
+    background-color: #272f39;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .resume-button-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .resume-button {
+    padding: 0.5rem 1rem;
+    background-color: #272f39;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Contact Section CSS */
+
+.contact-section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #272f39;;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contact-info {
+  margin-top: 10px;
+  background-color: #272f39;;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social-media {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.social-media a {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.social-media i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social-media a:hover {
+  color: #272f39;;
+}
+
+.social-media a:hover i {
+  color: #fff;
+}
+
+.white{
+  color: #fff;
+  text-decoration: none;
+}
+
